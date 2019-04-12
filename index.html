@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body>
+    <ons-page>
+        <ons-toolbar>
+            <div class="center">MJ-CALC</div>
+        </ons-toolbar>
+        <section style="padding: 8px">
+            <ons-input id="numPan" modifier="material" type="number" placeholder="판수"></ons-input>판
+            <p></p>
+            <ons-input id="numBu" modifier="material" type="number" placeholder="부수"></ons-input>부
+            <p></p>
+            <div>오야 <ons-switch id="swtichOya"></ons-switch></div>
+            <p></p>
+            <div align='right'>쯔모 <span id="txtTsumo">0</span></div>
+            <p></p>
+            <div align='right'>론 <span id="txtRon">0</span></div>
+            <p></p>
+            <!-- <ons-button id="btnCalc" modifier="large" >계산</ons-button> -->
+        </section>
+    </ons-page>
+    <script src="script.js"></script>
+</body>
+
+</html>
