@@ -2,4 +2,4 @@
 
 Simple web mahjong score calculator.
 
-https://raikuma.github.io/MJ-CALC/
+https://raikuma.github.io/mj-calc/
