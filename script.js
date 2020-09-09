@@ -35,7 +35,9 @@ calcScore = function (oya, pan, bu) {
     if (pan < 3 ||
         (pan == 3 && bu <= 60) ||
         (pan == 4 && bu <= 30)) {
-        bu = oneCeil(bu);
+        if (bu != 25) {
+            bu = oneCeil(bu);
+        }
         let a = bu * Math.pow(2, (pan + 2));
         let b;
         if (oya) {
